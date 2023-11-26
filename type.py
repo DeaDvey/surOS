@@ -16,7 +16,7 @@ def type():
             if position_x == 5:
                 position_y+=1
                 position_x = 0
-            if position_x == 5 and position_y == 5:
+            if position_y == 5:
                 display.clear()
                 position_x = 0
                 position_y = 0
